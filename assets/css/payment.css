@@ -360,13 +360,13 @@ select:focus {
     padding: 20px 25px;
     text-align: left;
     text-decoration: underline;
+    text-underline-offset: 4px;
     text-decoration-color: #0774B3;
 }
 
 .show-all-benefits a {
     color: #0774B3;
-    text-decoration: underline;
-    text-underline-offset: 4px;
+    text-decoration: none;
     font-size: 14px;
 }
 
