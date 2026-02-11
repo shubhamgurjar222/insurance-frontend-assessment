@@ -384,7 +384,6 @@ select:focus {
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    background: #f8f8f8;
 }
 
 .action-buttons .button-cell.white-bg {
