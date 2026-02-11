@@ -365,7 +365,8 @@ select:focus {
 
 .show-all-benefits a {
     color: #0774B3;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 4px;
     font-size: 14px;
 }
 
