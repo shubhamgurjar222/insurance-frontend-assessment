@@ -3,6 +3,8 @@ const travelDropdown = document.getElementById("main-content-parent");
 const navbarDesktop = document.getElementById("navbar-desktop");
 const travelArrow = document.getElementById('travel-icon-arrow')
 const travelArrowChild = document.getElementById('travel-icon-arrow-child')
+const mainContent = document.getElementById('main-content')
+
 
 let isHovering = false;
 let closeTimeout = null;
@@ -42,7 +44,7 @@ travelDropdown.addEventListener("mouseenter", () => {
   travelOpenDropdown();
 });
 
-travelDropdown.addEventListener("mouseleave", () => {
+mainContent.addEventListener("mouseleave", () => {
   isHovering = false;
   closeTimeout = setTimeout(() => {
     if (!isHovering) travelCloseDropdown();

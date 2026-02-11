@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href='https://fonts.googleapis.com/css?family=Saira' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/navbar.css">
-    <link rel="stylesheet" href="/assets/css/mobile-navbar.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/mobile-navbar.css">
 
 </head>
 <body>
@@ -86,7 +86,7 @@
                         </nav>
                     </div>
                 </div>
-                <main class="main-content">
+                <main class="main-content" id="main-content">
                     <div class="content-wrapper">
                         <div class="image-section">
                             <svg width="317" height="264" viewBox="0 0 317 264" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -190,7 +190,11 @@
                     <div class="menu-section">
                         <div class="menu-section-header" onclick="toggleSection('travelinsurance')">
                             <span class="menu-section-title" >Travel Insurance</span>
-                            <span class="expand-icon" id="travel-insurance-icon">^</span>
+                            <span class="expand-icon" id="travelinsurance-icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 10L8 6L4 10" stroke="#C93131" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
                         </div>
                         <div class="submenu" id="travelinsurance">
                             <div class="submenu-item">Plans</div>
@@ -208,7 +212,11 @@
                     <div class="menu-section">
                         <div class="menu-section-header" onclick="toggleSection('customer-service')">
                             <span class="menu-section-title" style="color: #333; font-weight: 600;">Customer Service</span>
-                            <span class="expand-icon" id="customer-service-icon" style="color: #333;">^</span>
+                            <span class="expand-icon" id="customer-service-icon" style="color: #333;">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 10L8 6L4 10" stroke="#C93131" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
                         </div>
                         <div class="submenu" id="customer-service">
                             <div class="submenu-item">Contact Us</div>
@@ -297,25 +305,13 @@
             </div>
         </div>
     </section>
-    <script src="/assets/js/place_dropdown.js"></script>
-    <script src="/assets/js/age_add.js"></script>
-    <script src="/assets/js/navbar_hover.js"></script>
-    <script src="/assets/js/mobile-nav.js"></script>
+    <script src="assets/js/place_dropdown.js"></script>
+    <script src="assets/js/age_add.js"></script>
+    <script src="assets/js/navbar_hover.js"></script>
+    <script src="assets/js/mobile-nav.js"></script>
+    <script src="assets/js/single_multi_form.js"></script>
     <script>
-        // Trip type toggle
-        document.querySelectorAll('.trip-type button').forEach(button => {
-            button.addEventListener('click', function() {
-                document.querySelectorAll('.trip-type button').forEach(btn => {
-                    btn.classList.remove('active');
-                });
-                this.classList.add('active');
-            });
-        });
 
-        // Get Quote button
-        document.querySelector('.quote-btn').addEventListener('click', function() {
-            alert('Quote form submission - connect to your backend');
-        });
     </script>
 </body>
 </html>

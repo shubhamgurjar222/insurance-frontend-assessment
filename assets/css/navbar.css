@@ -1,5 +1,5 @@
 .main-div {
-    background-image: url("/assets/images/hero-section/image.png");
+    background-image: url('../../assets/images/hero-section/image.png');
     width: 100%;
     display: flex;
     justify-content: center;
