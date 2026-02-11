@@ -79,6 +79,13 @@
     font-size: 12px;
 }
 
+.tag-div-parent-btn span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
 .tag-div-parent-btn svg {
     margin-left: 4px;
 }

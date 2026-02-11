@@ -10,12 +10,7 @@
     background-size: cover;
 }
 
-.navbar-desktop {
-    padding: 0px 10px;
-}
-
-
-.navbar-desktop, .navbar-desktop-submenu {
+.navbar-desktop{
     width: 100%;
     display: flex;
     align-items: center;
@@ -24,6 +19,7 @@
     margin: auto;
     transition: all 0.3s ease;
     margin-top: 40px;
+    padding: 0px 10px;
 }
 .navbar-submenu-child {
     display: flex;
@@ -32,6 +28,7 @@
     max-width: 1320px;
     width: 100%;
     margin: auto;
+    padding: 0px 10px;
 }
 
 .navbar-submenu {
