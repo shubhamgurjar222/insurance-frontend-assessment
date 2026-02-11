@@ -699,6 +699,10 @@ select:focus {
     .footer-links {
         min-height: 40px;
     }
+
+    .trip-info hr {
+        display: none;
+    }
 }
 
 .footer {
