@@ -9,7 +9,8 @@ const selectedValues = new Set();
 
 const notFound = document.createElement("div");
 notFound.className = "dropdown-item";
-notFound.style.color = "#999";
+notFound.style.color = "#000000";
+notFound.style.padding = "12px 20px"
 notFound.textContent = "Destination not found";
 notFound.style.display = "none";
 notFound.style.textAlign = "center"

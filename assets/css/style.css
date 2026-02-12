@@ -154,6 +154,15 @@
     font-size: 14px;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+  box-shadow: 0 0 0 1000px white inset !important;
+  background-color: white !important;
+}
+
 .select-input {
     border: 1px solid #ccc;
     padding: 0px 12px 0px 0px;
@@ -163,10 +172,6 @@
     justify-content: space-between;
     align-items: center;
     background: #fff;
-}
-
-.select-input:hover {
-    border-color: #999;
 }
 
 .arrow, #travel-icon-arrow-child{
