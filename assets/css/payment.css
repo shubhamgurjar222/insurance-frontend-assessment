@@ -237,9 +237,10 @@
 }
 
 .original-price {
-    font-size: 13px;
+    font-size: 22px;
     color: #999;
     text-decoration: line-through;
+    margin-left: 8px;
 }
 
 .current-price {
@@ -264,7 +265,7 @@
 
 .total-cost {
     font-size: 13px;
-    color: #666;
+    color: #909395;
     margin-bottom: 8px;
 }
 
@@ -303,7 +304,7 @@
     align-items: center;
     justify-content: center;
     font-size: 14px;
-    color: #656A72;
+    color: #212529;
     font-weight: 500;
     background: #EEEEEE;
 }
@@ -336,9 +337,12 @@
     width: 160px;
 }
 
+.benefit-value select option {
+    text-align: center;
+}
+
 select:focus {
     outline: none;
-     border-color: #fff;
 }
 
 .optional-cover-row {
@@ -396,7 +400,7 @@ select:focus {
 }
 
 .choose-plan-btn {
-    padding: 14px 50px;
+    padding: 14px 25px;
     font-size: 14px;
     font-weight: 600;
     border: none;
@@ -480,7 +484,7 @@ select:focus {
 }
 
 .plan-price-text {
-    font-size: 13px;
+    font-size: 22px;
     margin-bottom: 8px;
     color: #999;
     display: flex;
