@@ -55,15 +55,16 @@
 }
 .form-card {
     background: #FFFFFF;
-    padding: 25px 25px;
+    padding: 30px 25px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    /* width: max-content; */
+    border-radius: 0px 10px 10px 10px;
 }
 
 .tag-div {
     margin-top: 15px;
     display: flex;
     gap: 10px;
+    height: 27px;
 }
 
 .tag-div-parent-btn {
@@ -119,7 +120,7 @@
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     position: relative;
 }
 

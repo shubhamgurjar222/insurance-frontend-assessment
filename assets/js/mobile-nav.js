@@ -39,8 +39,10 @@ function toggleSection(sectionId) {
         title.classList.toggle('active');
         if (title.classList.contains('active')) {
             title.style.color = '#C93131';
+            document.getElementById(sectionId + '-svg-path').style.stroke = '#C93131';
         } else {
             title.style.color = '#333';
+            document.getElementById(sectionId + '-svg-path').style.stroke = '#222425';
         }
     }
 
