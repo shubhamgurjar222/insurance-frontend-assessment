@@ -426,7 +426,7 @@ select:focus {
 .view-policy-link {
     color: #002B45;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: underline;
     text-underline-offset: 4px;
 }
@@ -680,6 +680,7 @@ select:focus {
         justify-content: center;
         align-items: center;
         min-height: 30px !important;
+        margin-top: 5px;
     }
 
     .plan-column {
@@ -726,6 +727,12 @@ select:focus {
     .benefit-value select {
         width: 85%;
     }
+
+    .view-policy-link {
+        margin-top: 4px;
+    }
+
+
 }
 
 .footer {
